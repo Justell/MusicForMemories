@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/skytwo"
+    tools:context="com.example.android.musicformemories.CreatePlaylists">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/TextCursive"
+            android:text="@string/idea"
+            android:padding="@dimen/marginsM"
+            android:textSize="@dimen/textSize"
+            android:gravity="center_horizontal"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/create_new"
+            android:fontFamily="cursive"
+            android:textAllCaps="false"
+            android:textSize="@dimen/textSize"
+            android:paddingLeft="@dimen/marginsM"
+            android:paddingRight="@dimen/marginsM"/>
+
+        <TextView
+            android:id="@+id/twofourteen"
+            style="@style/Playlists"
+            android:text="@string/fourteen"
+            android:background="@color/backone"
+            android:layout_marginTop="@dimen/marginsXL"
+            />
+
+        <TextView
+            android:id="@+id/croatia"
+            style="@style/Playlists"
+            android:text="@string/croatia"
+            android:background="@color/backtwo"
+            android:layout_marginTop="@dimen/marginsM"
+            />
+
+        <TextView
+            android:id="@+id/wedding"
+            style="@style/Playlists"
+            android:text="@string/weddings"
+            android:background="@color/backthree"
+            android:layout_marginTop="@dimen/marginsM"
+            />
+
+    </LinearLayout>
+
+
+</ScrollView>

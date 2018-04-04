@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MusicForMemories</string>
+    <string name="music_is_life">Music is what life sounds like</string>
+    <string name="author">(Eric Olson)</string>
+    <string name="idea">Create a playlist for each different period of your lifetime and store some songs,which will bring back priceless memories</string>
+    <string name="create_new">New playlist</string>
+    <string name="fourteen">Me at 2014</string>
+    <string name="fifteen">Me at 2015</string>
+    <string name="croatia">Trip to Croatia</string>
+    <string name="weddings">JV wedding</string>
+    <string name="song">Song name</string>
+    <string name="artist">Artist</string>
+</resources>
